@@ -1,0 +1,204 @@
+body {
+  font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+  height: calc(100vh - 10px);
+  width: 100%;
+  position: relative;
+}
+
+header {
+  width: 100%;
+  height: 35px;
+}
+
+header nav {
+  width: 98%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .left .grey-list {
+  color: #8b8b8b;
+}
+
+header nav .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .right .sign-in {
+  margin-left: 15px;
+  border: none;
+  padding: 7px;
+  width: 70px;
+  background-color: #4285F4;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-left: 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #2e2c2c;
+}
+
+header nav ul li a:hover {
+  color: #444242;
+  border-bottom: 1px solid #2c2a2a;
+}
+
+.search-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 500px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.search-area .search-input {
+  width: 650px;
+  height: 45px;
+  border: none;
+  border-radius: 50px;
+  border: 1px solid rgba(111, 111, 111, 0.3);
+  outline: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.search-area .search-input:hover {
+  -webkit-box-shadow: 0px 0px 5px grey;
+          box-shadow: 0px 0px 5px grey;
+  border: none;
+}
+
+.search-area .search-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search-area .search-button .submit-button {
+  margin-top: 15px;
+  margin-left: 15px;
+  border: none;
+  padding: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 130px;
+  border-radius: 5px;
+  color: #313131;
+  cursor: pointer;
+  font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.search-area .search-button .submit-button:hover {
+  border: 1px solid rgba(111, 111, 111, 0.5);
+  -webkit-box-shadow: 0px 0px 1px grey;
+          box-shadow: 0px 0px 1px grey;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(155, 155, 155, 0.2);
+}
+
+footer .divide {
+  width: 98%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .left ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer .left ul li {
+  display: inline;
+  margin-left: 15px;
+}
+
+footer .left ul li a {
+  text-decoration: none;
+}
+
+footer .left .grey-list {
+  color: #7e7e7e;
+}
+/*# sourceMappingURL=style.css.map */
