@@ -19,6 +19,17 @@ header{
         align-items: center;
         justify-content: space-between;
 
+        span{
+            margin-left: 15px;
+            color: grey;
+            cursor: pointer;
+
+            &:hover{
+                color: black;
+                
+            }
+        }
+
         .left{
             display: flex;
             align-items: center;
@@ -80,7 +91,8 @@ header{
 
 
     .search-input{
-        width: 650px;
+        margin-top: 35px;
+        width: 600px;
         height: 45px;
         border: none;
         border-radius: 50px;
@@ -157,6 +169,11 @@ footer{
 
                 a{
                     text-decoration: none;
+
+                    &:hover{
+                        color: rgb(68, 66, 66);
+                        border-bottom: 1px solid rgb(44, 42, 42);
+                    }
                 }
             } 
         }

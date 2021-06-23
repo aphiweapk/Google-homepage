@@ -27,6 +27,16 @@ header nav {
           justify-content: space-between;
 }
 
+header nav span {
+  margin-left: 15px;
+  color: grey;
+  cursor: pointer;
+}
+
+header nav span:hover {
+  color: black;
+}
+
 header nav .left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -100,7 +110,8 @@ header nav ul li a:hover {
 }
 
 .search-area .search-input {
-  width: 650px;
+  margin-top: 35px;
+  width: 600px;
   height: 45px;
   border: none;
   border-radius: 50px;
@@ -196,6 +207,11 @@ footer .left ul li {
 
 footer .left ul li a {
   text-decoration: none;
+}
+
+footer .left ul li a:hover {
+  color: #444242;
+  border-bottom: 1px solid #2c2a2a;
 }
 
 footer .left .grey-list {
