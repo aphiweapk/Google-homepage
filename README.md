@@ -1,0 +1,1 @@
+I have made a Google webpage from the first project in ODIN project open source course to learn full stack Javascript development.
